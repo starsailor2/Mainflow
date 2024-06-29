@@ -19,7 +19,7 @@ plt.ylabel("size")
 # show the graph
 plt.show()
 
-# Line chart with year against own
+# Line chart with age against size
 plt.plot(data['age']) # x axis
 plt.plot(data['size']) # y axis
 

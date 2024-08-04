@@ -117,15 +117,6 @@ sns.displot(df['age'], bins=30, kde=True)
 plt.xlabel("Age")
 plt.show()
 
-#Most of people who has 'type 0' chest pain has less chance of heart disease.
-#And we see the opposite for other types.
-#Now Let's take look at our age column.
-#Crete a distribution plot with normal distribution curve
-
-sns.displot(df['age'], bins=30, kde=True)
-plt.xlabel("Age")
-plt.show()
-
 #From this plot we get a clear overview about maximum heart rate represented by 'thalach'
 sns.displot(df['thalach'], bins=30, kde=True, color='chocolate')
 plt.xlabel("Age")
